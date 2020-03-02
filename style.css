@@ -1,0 +1,169 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(images/bg-img.png);
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* End of the css reset */
+
+.top-container{
+  text-align: center;
+  padding: 2%;
+  background-image: url(images/hd-bg-img.png);
+}
+
+/* Elements Section */
+
+.elements{
+  padding: 2% 0;
+  text-align: center;
+  background-image: url(images/bg-img.png);
+}
+
+.big-text{
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  color: white;
+}
+
+.element-links{
+  padding: 2% 0 0 0;
+}
+
+.e-link-item{
+  display: inline-block;
+  list-style: none;
+  margin: 0 2%;
+}
+
+/* Dice image Selection Section */
+
+.dot-dice{
+  background-image: url(images/dice6.png);
+  display: block;
+  width: 240px;
+  height: 240px;
+}
+
+.no-dice{
+  background-image: url(images/nodice6.png);
+  display: block;
+  width: 240px;
+  height: 240px;
+}
+
+.roman-dice{
+  background-image: url(images/romandice6.png);
+  display: block;
+  width: 240px;
+  height: 240px;
+}
+
+.eng-dice{
+  background-image: url(images/engdice6.png);
+  display: block;
+  width: 240px;
+  height: 240px;
+}
+
+.sm-dot-dice,
+.sm-roman-dice,
+.sm-num-dice,
+.sm-eng-dice{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+  background-size: 100%;}
+
+.argon.sm-dot-dice{
+    background-image: url(images/argon/argon-dice6.png);
+}
+
+.neon.sm-dot-dice{
+    background-image: url(images/neon/neon-dice6.png);
+    }
+
+.krypton.sm-dot-dice{
+    background-image: url(images/krypton/krypton-dice6.png);
+    }
+
+.argon.sm-num-dice{
+    background-image: url(images/argon/argon-nodice6.png);
+}
+
+.neon.sm-num-dice{
+    background-image: url(images/neon/neon-nodice6.png);
+    }
+
+.krypton.sm-num-dice{
+    background-image: url(images/krypton/krypton-nodice6.png);
+    }
+
+.argon.sm-roman-dice{
+    background-image: url(images/argon/argon-romandice6.png);
+}
+
+.neon.sm-roman-dice{
+    background-image: url(images/neon/neon-romandice6.png);
+    }
+
+.krypton.sm-roman-dice{
+    background-image: url(images/krypton/krypton-romandice6.png);
+    }
+
+.argon.sm-eng-dice{
+    background-image: url(images/argon/argon-engdice6.png);
+}
+
+.neon.sm-eng-dice{
+    background-image: url(images/neon/neon-engdice6.png);
+    }
+
+.krypton.sm-eng-dice{
+    background-image: url(images/krypton/krypton-engdice6.png);
+    }
+
+.dice-choose-text{
+  padding: 1% 0;
+  text-align: center;
+  background-image: url(images/hd-bg-img.png);
+}
+
+.dice-choice{
+  text-align: center;
+}
+
+.die-top{
+  margin: 2% 1% 0 1%;
+}
+
+.die{
+  margin: 0 1% 0 1%;
+  text-align: center;
+  display: inline-block;
+  list-style: none;
+}
+
+.die p{
+  margin-top: 1rem;
+  font-family: 'Raleway';
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* footer */
+
+footer{
+  padding: 1rem 0;
+  text-align: center;
+  background-image: url(images/ft-bg-img.png);
+}

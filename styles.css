@@ -1,0 +1,103 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(images/bg-img.png);
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* End of the css reset */
+
+.top-container{
+	background-image: url(images/hd-bg-img.png);
+	background-repeat-y: no-repeat;
+	padding: 2%;
+	margin-bottom: 4%;
+}
+
+.top-container H1{padding: 1% 0 2% 0;}
+
+.home-button{
+  color: #EEEEEE;
+  width: 4%;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 3px;
+  margin: 2% 0 0 2%;
+  background-color: #050505;
+}
+
+.elements{
+  padding: 2% 0;
+  margin-bottom: 2rem;
+  text-align: center;
+  background-color: #050505;
+}
+
+.big-text{
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  color: white;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice p{
+  padding-bottom: 2rem;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+.top-container{
+  text-align: center;
+  padding: 2% 0;
+}
+
+body {
+  background-image: url(images/bg-img.png);
+}
+
+h1 {
+  font-family: 'raleway';
+  font-size: 3rem;
+  color: #EEEEEE;
+}
+
+p {
+  font-size: 2rem;
+  color: #EEEEEE;
+  font-family: 'raleway';
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  color: #EEEEEE;
+  text-align: center;
+  padding: 2%;
+  margin-top: 2%;
+  background-image: url(images/ft-bg-img.png);
+}
+
+footer p{
+  font-size: 1rem;
+  color: #EEEEEE;
+  font-family: 'raleway';
+}
+  
