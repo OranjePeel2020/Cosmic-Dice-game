@@ -87,6 +87,11 @@ img {
   width: 80%;
 }
 
+.home-button{
+display: inline-block;
+color: #EEEEEE;
+}
+
 footer {
   color: #EEEEEE;
   text-align: center;
