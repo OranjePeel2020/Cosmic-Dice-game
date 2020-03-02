@@ -45,24 +45,10 @@ a{
   margin: 0 2%;
 }
 
-/* Dice image Selection Section */
-
-.dot-dice{
-  background-image: url(dice6.png);
-  display: block;
-  width: 240px;
-  height: 240px;
-}
-
-.no-dice{
-  background-image: url(nodice6.png);
-  display: block;
-  width: 240px;
-  height: 240p
 .dice-choose-text{
   padding: 1% 0;
   text-align: center;
-  background-image: url(images/hd-bg-img.png);
+  background-image: url(hd-bg-img.png);
 }
 
 .dice-choice{
