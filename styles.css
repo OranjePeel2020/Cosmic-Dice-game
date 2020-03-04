@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url(images/bg-img.png);
+  background-image: url(bg-img.png);
 }
 
 h1, h2, h3, h4, h5, h6, p{
@@ -16,7 +16,7 @@ a{
 /* End of the css reset */
 
 .top-container{
-	background-image: url(images/hd-bg-img.png);
+	background-image: url(hd-bg-img.png);
 	background-repeat-y: no-repeat;
 	padding: 2%;
 	margin-bottom: 4%;
@@ -68,7 +68,7 @@ a{
 }
 
 body {
-  background-image: url(images/bg-img.png);
+  background-image: url(bg-img.png);
 }
 
 h1 {
@@ -134,7 +134,7 @@ footer {
   text-align: center;
   padding: 2%;
   margin-top: 2%;
-  background-image: url(images/ft-bg-img.png);
+  background-image: url(ft-bg-img.png);
 }
 
 footer p{
