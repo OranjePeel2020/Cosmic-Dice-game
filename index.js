@@ -25,11 +25,11 @@ var image1 = document.querySelectorAll("img")[1];
 image1.setAttribute("src", randomDiceImage);
 
 if (randomNumber1 > randomNumber2) {
-   document.querySelectorAll("h1")[0].innerHTML = ("Player 1 WINS!🚩");
+   document.querySelectorAll("h1")[0].innerHTML = (player1 + " WINS!ðŸš©");
 } else if (randomNumber2 > randomNumber1) {
-   document.querySelectorAll("h1")[0].innerHTML = ("Player 2 WINS!🚩");
+   document.querySelectorAll("h1")[0].innerHTML = (player2 + " WINS!ðŸš©");
 } else if (randomNumber2 === randomNumber1){
-  document.querySelectorAll("h1")[0].innerHTML = ("Draw 🎌");
+  document.querySelectorAll("h1")[0].innerHTML = ("Draw ðŸŽŒ");
 };
 
    }
