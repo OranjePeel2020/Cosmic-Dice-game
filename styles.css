@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url(bg-img.png);
+  background-image: url(images/bg-img.png);
 }
 
 h1, h2, h3, h4, h5, h6, p{
@@ -11,13 +11,12 @@ h1, h2, h3, h4, h5, h6, p{
 
 a{
   text-decoration: none;
-  color: #EEEEEE;
 }
 
 /* End of the css reset */
 
 .top-container{
-	background-image: url(hd-bg-img.png);
+	background-image: url(images/hd-bg-img.png);
 	background-repeat-y: no-repeat;
 	padding: 2%;
 	margin-bottom: 4%;
@@ -26,7 +25,6 @@ a{
 .top-container H1{padding: 1% 0 2% 0;}
 
 .home-button{
-  display: inline-block;
   color: #EEEEEE;
   width: 4%;
   padding: 1rem;
@@ -70,7 +68,7 @@ a{
 }
 
 body {
-  background-image: url(bg-img.png);
+  background-image: url(images/bg-img.png);
 }
 
 h1 {
@@ -89,12 +87,54 @@ img {
   width: 80%;
 }
 
+.home-button{
+	display: inline-block;
+	color: #EEEEEE;
+}
+
+/**Form styling**/
+.addNames{
+  text-align: center;
+  margin-bottom: 1.5%;
+}
+
+.addNames h4{
+  font-size: 2rem;
+  color: #EEEEEE;
+  font-family: 'raleway';
+  margin-bottom: 3%;
+}
+
+.players {
+  display: inline-block;
+  Border: none;
+  Background-color: #DEEAEF;
+  border-radius: 5px;
+  padding: 1% 2% 1% 1%;
+  margin-left: 1%
+}
+
+#myBtn{
+  Border: none;
+  Background-color: #66CCFF;
+  border-radius: 5px;
+  padding: 1% 2% 1% 2%;
+  color: #0F191E;
+  margin-left: 1%;
+  transition: 2s;
+}
+
+#myBtn:hover{
+	Background-color: #00CCFF;
+}
+/**Form styling finished**/
+
 footer {
   color: #EEEEEE;
   text-align: center;
   padding: 2%;
   margin-top: 2%;
-  background-image: url(ft-bg-img.png);
+  background-image: url(images/ft-bg-img.png);
 }
 
 footer p{
@@ -102,4 +142,3 @@ footer p{
   color: #EEEEEE;
   font-family: 'raleway';
 }
-  
