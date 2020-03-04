@@ -17,22 +17,80 @@
     <div class="top-container">
      <h1>Take the dice for a roll</h1>     
     </div>
+         <div class="headline">
+
+         	<h4>Add your player's names:</h4>
+
+         </div>
+
+         <div class="info-box">
+
+          <form action="#" id="myForm" onSubmit="return namePlayers()" method="post">
+
+             <input type="text" name="player1" class="players" id="player1" placeholder="Player 1 Name">
+
+             <input type="text" name="player2" class="players" id="player2" placeholder="Player 2 Name">
+
+             <input id="myBtn" type="submit" value="Roll the dice!"></input>
+
+          </form>
+
+         </div>
+
+     </div>
+
+     <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close" onClick="window.location.reload();">&times;</span>
+    <section class="container-fluid">
+
+
+
     <div class="container">
-       <div class="dice">
+      <div class="dice">
         <p>Player 1</p>
-        <img id="img1" class="img1" src="nodice6.png">
+        <img class="img1" src="nodice6.png">
       </div>
 
       <div class="dice">
         <p>Player 2</p>
-        <img id="img2" class="img2" src="nodice6.png">
+        <img class="img2" src="nodice6.png">
       </div>
 
     </div>
+
+</section>
+</div>
+
+</div>
+
+<!-- Optional JavaScript -->
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+
+ var modal = document.getElementById("myModal");
+
+ var btn = document.getElementById("myBtn");
+
+
+
+   btn.onclick = function() {
+   modal.style.display = "block";
+ }
+
+
+
+
+</script>
+
  
    <div class="home-button-link">
    <p class="home-button"><a href="index.html"><i class="fas fa-home 7x" aria-hidden="true"></i></a></p>
-   <p class="home-button"><a href="num-dice.html"><i class="fas fa-play"></i></a></p>  
    </div>
     <footer>
      <p>🎲 OranjePeelStudios 🎲</p>
